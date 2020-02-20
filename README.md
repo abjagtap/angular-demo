@@ -1,27 +1,70 @@
-# PipeAngular
+# angular-pipe
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6.
+pipe
+=> component.html
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+1 project
+booking.module
+app.module
 
-## Code scaffolding
+multiple project
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+booking.module app.module
+multiple.modules
 
-## Build
+app.module
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+form
+template driven
+reactive form - best way - reactive
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+form control
 
-## Running end-to-end tests
+form group
+group contrrols
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+form array
+array of groups or controls
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Lowercasepipe
+Uppercasepipe
+Datepipe
+Currencypipe
+Jsonpipe
+Percentpipe
+Decimalpipe
+Slicepipe
+
+# angular forms
+reactive formsnote
+
+forms
+reactive - form, component
+template driven form - simple
+
+
+reactive - form, component
+-formcontrol
+-formgroup
+-formarray
+address{
+city
+country
+}
+
+<form formgroup>
+<input type ext formcontrolname="">
+<div address form array>
+<input type ext city form-control>
+<input type ext counry form-control>
+</div>
+<div address form array>
+<input type ext city form-control>
+</div>
+</form>
+
+form
+<input type ext [formControl]="city">
